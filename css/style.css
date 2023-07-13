@@ -3822,7 +3822,10 @@ textarea.form-input {
 }
 
 .footer-classic .brand img {
-	width: 100%;
+	width:55%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .footer-classic-description {
