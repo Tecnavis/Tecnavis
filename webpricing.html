@@ -11,6 +11,35 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+    <style>
+      /* Style the dropdown content (hidden by default) */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #6826cf;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      /* Style the links inside the dropdown */
+      .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      /* Change color of dropdown links on hover */
+      .dropdown-content a:hover {
+        background-color: #000000;
+      }
+      
+      /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      </style>
   </head>
   <body>
     <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
@@ -34,27 +63,29 @@
                   <li>
                     <div class="unit unit-spacing-xs align-items-center">
                       <div class="unit-left"><span class="icon text-middle fa-phone"></span></div>
-                      <div class="unit-body"><a href="tel:#">+1 800 123 45 67</a></div>
+                      <div class="unit-body"><a href="tel:#">+91 6282414031</a></div>
                     </div>
                   </li>
                   <li>
                     <div class="unit unit-spacing-xs align-items-center">
                       <div class="unit-left"><span class="icon text-middle fa-envelope"></span></div>
-                      <div class="unit-body"><a href="mailto:#">info@demolink.org</a></div>
+                      <div class="unit-body"><a href="mailto:#">info@tecnavis.com</a></div>
                     </div>
                   </li>
                   <li>
                     <div class="unit unit-spacing-xs align-items-center">
                       <div class="unit-left"><span class="icon text-middle fa-map-marker"></span></div>
-                      <div class="unit-body"><a href="#">2164 Wall St. New York, NY 10122</a></div>
+                      <div class="unit-body"><a href="https://goo.gl/maps/KuLubnS8efovJmay6">Malappuram</a></div>
                     </div>
                   </li>
                 </ul>
                 <ul class="social-links">
-                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-linkedin" href="#"></a></li>
+                   <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-linkedin" href="#"></a></li>
                   <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-twitter" href="#"></a></li>
-                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-facebook" href="#"></a></li>
-                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-instagram" href="#"></a></li>
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-youtube" href="https://youtube.com/@Tecnaviswebsolutions"></a></li>
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-facebook" href="https://www.facebook.com/people/Tecnavis-WebSolutions/pfbid02a3iE22sZkNnApbH8GPy7UuaE3QmBsxP6FP6e5u58uuzkWksq3ucriXVTVqpXUjYTl/"></a></li>
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-instagram" href="https://www.instagram.com/tecnavis"></a></li>
+                  
                 </ul>
               </div>
             </div>
@@ -66,7 +97,7 @@
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!--RD Navbar Brand-->
                   <div class="rd-navbar-brand">
-                    <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo-default-200x34.png" alt="" width="100" height="17"/><img class="brand-logo-light" src="images/logo-inverse-200x34.png" alt="" width="100" height="17"/></a>
+                    <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo landscape.png" alt="" width="100" height="17"/><img class="brand-logo-light" src="images/logo landscape.png" alt="" width="100" height="17"/></a>
                   </div>
                 </div>
                 <div class="rd-navbar-main-element">
@@ -74,7 +105,18 @@
                     <ul class="rd-navbar-nav">
                       <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">Home</a>
                       </li>
-                      <li class="rd-nav-item active"><a class="rd-nav-link" href="about.html">About</a>
+                      <li class="rd-nav-item "><a class="rd-nav-link" href="about.html">About</a>
+                      </li>
+                      <li class="rd-nav-item ">
+                        <div class="dropdown">
+                          <a class="rd-nav-link" href="#">Pricing</a>
+                          <div class="dropdown-content">
+                            <a href="./webpricing.html">Websites</a>
+                            <a href="#">Ecommerce</a>
+                            <a href="#">App</a>
+                            <a href="#">More...</a>
+                          </div>
+                        </div>
                       </li>
                       <li class="rd-nav-item"><a class="rd-nav-link" href="typography.html">Typography</a>
                       </li>
@@ -112,7 +154,7 @@
       </div>
       <div class="row row-30 justify-content-center">
         
-        <div class="col-xl-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".4s">
+        <div class="col-xl-4 col-md-6 col-12 wow fadeInDown" data-wow-delay=".4s">
           <div class="pricing-box bg-gray-dark">
             <div class="pricing-box-tittle">Personal Portfolio</div>
             
@@ -131,10 +173,10 @@
               Relevant Personal Projects <br>
               A FAQ Section <br>
               
-                    </p><a class="button button-190 button-circle btn-rounded-outline" href="#">get started</a>
+                    </p><a class="button button-190 button-circle btn-primary-rounded" href="#">get started</a>
           </div>
         </div>
-        <div class="col-xl-4 col-md-6 col-12 wow fadeInDown" data-wow-delay=".3s">
+        <div class="col-xl-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".5s">
           <div class="pricing-box bg-gray-primary">
             <div class="pricing-box-tittle">STATIC WEBSITE</div>
             
@@ -155,7 +197,7 @@
               Live chat plugin <br>
 
 
-             </p><a class="button button-190 button-circle btn-primary-rounded" href="#">get started</a>
+             </p><a class="button button-190 button-circle btn-rounded-outline" href="#">get started</a>
           </div>
         </div>
         <div class="col-xl-4 col-md-6 col-12 wow fadeInDown" data-wow-delay=".3s">
@@ -200,13 +242,12 @@
         <div class="container">
           <div class="row row-30">
             <div class="col-lg-3 wow fadeInLeft">
-              <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo-default-200x34.png" alt="" width="100" height="17"/><img class="brand-logo-light" src="images/logo-inverse-200x34.png" alt="" width="100" height="17"/></a>
-              <p class="footer-classic-description offset-top-0 offset-right-25">СonsultBiz provides a full range of business consulting & advisory services to small, medium, and international companies worldwide. We use innovations and experience to drive your success.</p>
+              <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo landscape.png" alt="" width="100" height="17"/><img class="brand-logo-light" src="images/logo landscape.png" alt="" width="100" height="17"/></a>
+              <p class="footer-classic-description offset-top-0 offset-right-25">Trust is the foundation of any successful service. We are committed to earning your trust every day.</p>
             </div>
             <div class="col-lg-3 col-sm-8 wow fadeInUp">
               <P class="footer-classic-title">contact info</P>
-              <div class="d-block offset-top-0">2164 Wall St, New York<span class="d-lg-block">NY 10122, USA</span></div><a class="d-inline-block accent-link" href="mailto:#">info@demolink.org</a><a class="d-inline-block" href="tel:#">+1 800 123 45 67</a>
-              <ul>
+              <div class="d-block offset-top-0">Naduthodi Tower , Tirur Road , <span class="d-lg-block">Down Hill, Malappuram ,</span>   Kerala - 676505 <span class="d-lg-block"></span></div><a class="d-inline-block accent-link" href="mailto:#">info@tecnavis.com</a><a class="d-inline-block" href="tel:#">+91 6282414031</a>              <ul>
                 <li>Mon-Thu:<span class="d-inline-block offset-left-10 text-white">9:30 AM - 9:00 PM</span></li>
                 <li>Fri:<span class="d-inline-block offset-left-10 text-white">10:00 AM - 9:00 PM</span></li>
                 <li>Sat:<span class="d-inline-block offset-left-10 text-white">10:00 AM - 3:00 PM</span></li>
@@ -239,12 +280,13 @@
         </div>
         <div class="container wow fadeInUp" data-wow-delay=".4s">
           <div class="footer-classic-aside">
-            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span>. All Rights Reserved. Design by <a href="https://www.templatemonster.com">TemplateMonster</a></p>
+            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span>. All Rights Reserved. Design by <a href="https://www.tecnavis.com/">Tecnavis Web Solutions Pvt Ltd</a></p>
             <ul class="social-links">
               <li><a class="fa fa-linkedin" href="#"></a></li>
               <li><a class="fa fa fa-twitter" href="#"></a></li>
-              <li><a class="fa fa-facebook" href="#"></a></li>
-              <li><a class="fa fa-instagram" href="#"></a></li>
+              <li><a class="fa fa fa-youtube" href="https://youtube.com/@Tecnaviswebsolutions"></a></li>
+              <li><a class="fa fa-facebook" href="https://www.facebook.com/people/Tecnavis-WebSolutions/pfbid02a3iE22sZkNnApbH8GPy7UuaE3QmBsxP6FP6e5u58uuzkWksq3ucriXVTVqpXUjYTl/"></a></li>
+              <li><a class="fa fa-instagram" href="https://www.instagram.com/tecnavis"></a></li>
             </ul>
           </div>
         </div>
