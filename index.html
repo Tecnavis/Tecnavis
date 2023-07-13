@@ -74,11 +74,22 @@
                 <div class="rd-navbar-main-element">
                   <div class="rd-navbar-nav-wrap">
                     <ul class="rd-navbar-nav">
-                      <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">Home</a>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="about.html">About</a>
+                      <li class="rd-nav-item "><a class="rd-nav-link" href="about.html">About</a>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="typography.html">Pricing</a>
+                      <li class="rd-nav-item ">
+                        <div class="dropdown">
+                          <a class="rd-nav-link" href="./index.html#service">Services</a>
+                          <div class="dropdown-content">
+                            <a href="./webpricing.html">Websites</a>
+                            <a href="#">Ecommerce</a>
+                            <a href="#">App</a>
+                            <a href="#">More...</a>
+                          </div>
+                        </div>
+                      </li>
+                      <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="typography.html">Typography</a> -->
                       </li>
                       <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contacts</a>
                       </li>
@@ -175,7 +186,7 @@
                 <div class="col-xl-6 wow fadeInUp" data-wow-delay=".4s">
                   <div class="box-default">
                     <div class="box-default-title">Experienced Team</div>
-                    <p class="box-default-description">We employ the best consultants with more than 10 years of experience.</p><span class="box-default-icon novi-icon icon-lg mercury-icon-user"></span>
+                    <p class="box-default-description">We employ the enthusiastic and experienced individual.</p><span class="box-default-icon novi-icon icon-lg mercury-icon-user"></span>
                   </div>
                 </div>
                 <div class="col-xl-6 wow fadeInUp" data-wow-delay=".5s">
@@ -193,7 +204,7 @@
         <div class="decor-text decor-text-2 wow fadeInUp" data-wow-delay=".3s">features</div>
       </section>
       <!--Counters-->
-      <section class="section bg-image-2">
+      <!-- <section class="section bg-image-2">
         <div class="container section-md">
           <div class="row row-30 text-center">
             <div class="col-xl-3 col-sm-6 col-12">
@@ -226,46 +237,103 @@
             </div>
           </div>
         </div>
-      </section>
-      <!--Pricing-->
+      </section> -->
+      <!--Service-->
       <section class="section section-md bg-xs-overlay" style="background:url('images/bg-image-3-1700x883.jpg')no-repeat;background-size:cover">
-        <div class="container">
+        <div class="container" id="service">
           <div class="row row-50 justify-content-center">
             <div class="col-12 text-center col-md-10 col-lg-8">
-              <div class="section-name wow fadeInRight" data-wow-delay=".2s">Pricing Options</div>
-              <h3 class="wow fadeInLeft text-capitalize" data-wow-delay=".3s">Find the perfect plan for<span class="text-primary"> your business</span></h3>
-              <p>We offer three different pricing plans that completely cover the needs of our clients. Feel free to select a preferable plan or learn more about each of them below.</p>
+              <div class="section-name wow fadeInRight" data-wow-delay=".2s">Services Available</div>
+              <h3 class="wow fadeInLeft text-capitalize" data-wow-delay=".3s">Find the Service for<span class="text-primary"> your business</span></h3>
+              <p>We offer three main Services that completely cover the needs for ypur business. Feel free to select a preferable Service or learn more about each of them below.</p>
             </div>
           </div>
           <div class="row row-30 justify-content-center">
             <div class="col-xl-4 col-md-6 col-12 wow fadeInDown" data-wow-delay=".3s">
               <div class="pricing-box bg-gray-dark">
-                <div class="pricing-box-tittle">Starter</div>
-                <p>Perfect for startups</p>
+                <div class="pricing-box-tittle">Websites</div>
+                <p>Perfect for Showcase your Business</p>
                 <hr/>
-                <div class="pricing-box-inner"><span class="pricing-box-symbol">$</span><span class="pricing-box-price">39</span></div>
-                <div class="pricing-box-label bg-gray">MONTHLY</div>
-                <p>Business Strategy <br> Financial Advisory</p><a class="button button-190 button-circle btn-primary-rounded" href="#">get started</a>
+                <!-- <div class="pricing-box-inner"><span class="pricing-box-symbol">$</span><span class="pricing-box-price">39</span></div>
+                <div class="pricing-box-label bg-gray">MONTHLY</div> -->
+                <p>Creating visually captivating and functional websites for online success.</p><br>
+                <ul class="list-unstyled li-space-lg">
+                  <li class="d-flex">
+                      <i class="fas fa-check"></i>
+                      <div class="flex-grow-1">Responsive Design</div>
+                  </li>
+                  <li class="d-flex">
+                      <i class="fas fa-check"></i>
+                      <div class="flex-grow-1">Clear and Engaging Branding</div>
+                  </li>
+                  <li class="d-flex">
+                      <i class="fas fa-check"></i>
+                      <div class="flex-grow-1">Products/Services Showcase</div>
+                  </li>
+                  <li class="d-flex">
+                      <i class="fas fa-check"></i>
+                      <div class="flex-grow-1">Contact Information</div>
+                  </li>
+              </ul>
+                <a class="button button-190 button-circle btn-primary-rounded" href="#">know plans</a>
               </div>
             </div>
             <div class="col-xl-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".4s">
               <div class="pricing-box bg-gray-primary">
-                <div class="pricing-box-tittle">Professional</div>
-                <p>Designed for medium businesses</p>
+                <div class="pricing-box-tittle">E-Commerce</div>
+                <p>Showcase your Products worldwide</p>
                 <hr/>
-                <div class="pricing-box-inner"><span class="pricing-box-symbol">$</span><span class="pricing-box-price">69</span></div>
-                <div class="pricing-box-label bg-gray-primary-light">MONTHLY</div>
-                <p>Operations Management <br> Strategic Planning</p><a class="button button-190 button-circle btn-rounded-outline" href="#">get started</a>
+                <!-- <div class="pricing-box-inner"><span class="pricing-box-symbol">$</span><span class="pricing-box-price">69</span></div>
+                <div class="pricing-box-label bg-gray-primary-light">MONTHLY</div> -->
+                <p>Unlock your online store's potential with our affordable e-commerce solutions.</p><br>
+                <ul class="list-unstyled li-space-lg">
+                  <li class="d-flex">
+                      <i class="fas fa-check"></i>
+                      <div class="flex-grow-1">Product Catalog</div>
+                  </li>
+                  <li class="d-flex">
+                      <i class="fas fa-check"></i>
+                      <div class="flex-grow-1">Secure Payment Gateway</div>
+                  </li>
+                  <li class="d-flex">
+                      <i class="fas fa-check"></i>
+                      <div class="flex-grow-1">Mobile Optimization</div>
+                  </li>
+                  <li class="d-flex">
+                      <i class="fas fa-check"></i>
+                      <div class="flex-grow-1">Customer Support</div>
+                  </li>
+              </ul>
+                <a class="button button-190 button-circle btn-rounded-outline" href="#">know plans</a>
               </div>
             </div>
             <div class="col-xl-4 col-md-6 col-12 wow fadeInDown" data-wow-delay=".3s">
               <div class="pricing-box bg-gray-dark">
-                <div class="pricing-box-tittle">Premium</div>
-                <p>For international enterprises</p>
+                <div class="pricing-box-tittle">App Development</div>
+                <p>Personalise your Innovation</p>
                 <hr/>
-                <div class="pricing-box-inner"><span class="pricing-box-symbol">$</span><span class="pricing-box-price">89</span></div>
-                <div class="pricing-box-label bg-gray">MONTHLY</div>
-                <p>Quality Engineering <br> Marketing Consulting</p><a class="button button-190 button-circle btn-primary-rounded" href="#">get started</a>
+                <!-- <div class="pricing-box-inner"><span class="pricing-box-symbol">$</span><span class="pricing-box-price">89</span></div>
+                <div class="pricing-box-label bg-gray">MONTHLY</div> -->
+                <p>Transform your idea into an exceptional app. Request a quote</p><br>
+                <ul class="list-unstyled li-space-lg">
+                  <li class="d-flex">
+                      <i class="fas fa-check"></i>
+                      <div class="flex-grow-1">Mobile-friendly design</div>
+                  </li>
+                  <li class="d-flex">
+                      <i class="fas fa-check"></i>
+                      <div class="flex-grow-1">Offline functionality</div>
+                  </li>
+                  <li class="d-flex">
+                      <i class="fas fa-check"></i>
+                      <div class="flex-grow-1">App Support and FAQs</div>
+                  </li>
+                  <li class="d-flex">
+                      <i class="fas fa-check"></i>
+                      <div class="flex-grow-1">Playstore & App store download links</div>
+                  </li>
+              </ul>
+                <a class="button button-190 button-circle btn-primary-rounded" href="#">know plans</a>
               </div>
             </div>
           </div>
@@ -316,61 +384,57 @@
           </div>
         </div>
       </section>
-      <!--Footer--><a class="section section-banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" target="_blank" style="background-image: url(images/background-01-1920x310.jpg); background-image: -webkit-image-set( url(images/background-01-1920x310.jpg) 1x, url(images/background-01-3840x620.jpg) 2x )"><img src="images/foreground-01-1600x310.png" srcset="images/foreground-01-1600x310.png 1x, images/foreground-01-3200x620.png 2x" alt="" width="1600" height="310"></a>
-      <footer class="section footer-classic section-sm">
-        <div class="container">
-          <div class="row row-30">
-            <div class="col-lg-3 wow fadeInLeft">
-              <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logolandscape.png" alt="" width="100" height="17"/><img class="brand-logo-light" src="images/logo-inverse-200x34.png" alt="" width="100" height="17"/></a>
-              <p class="footer-classic-description offset-top-0 offset-right-25">Trust is the foundation of any successful service. We are committed to earning your trust every day.</p>
-            </div>
-            <div class="col-lg-3 col-sm-8 wow fadeInUp">
-              <P class="footer-classic-title">contact info</P>
-              <div class="d-block offset-top-0">2164 Wall St, New York<span class="d-lg-block">NY 10122, USA</span></div><a class="d-inline-block accent-link" href="mailto:#">info@tecnavis.com</a><a class="d-inline-block" href="tel:#">+91 6282414031</a>
-              <ul>
-                <li>Mon-Thu:<span class="d-inline-block offset-left-10 text-white">9:30 AM - 9:00 PM</span></li>
-                <li>Fri:<span class="d-inline-block offset-left-10 text-white">10:00 AM - 9:00 PM</span></li>
-                <li>Sat:<span class="d-inline-block offset-left-10 text-white">10:00 AM - 3:00 PM</span></li>
-              </ul>
-            </div>
-            <div class="col-lg-2 col-sm-4 wow fadeInUp" data-wow-delay=".3s">
-              <P class="footer-classic-title">Quick Links</P>
-              <ul class="footer-classic-nav-list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="contacts.html">Contacts</a></li>
-              </ul>
-            </div>
-            <div class="col-lg-4 wow fadeInLeft" data-wow-delay=".2s">
-              <P class="footer-classic-title">newsletter</P>
-              <form class="rd-mailform text-left footer-classic-subscribe-form" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-                <div class="form-wrap">
-                  <label class="form-label" for="subscribe-email">Your Email Address</label>
-                  <input class="form-input" id="subscribe-email" type="email" name="email" data-constraints="@Email @Required">
-                </div>
-                <div class="form-button group-sm text-center text-lg-left">
-                  <button class="button button-primary button-circle" type="submit">sign up</button>
-                </div>
-              </form>
-              <p>Be the first to find out about our latest news, updates, and special offers.</p>
+         <!--Footer--><a class="section section-banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" target="_blank" style="background-image: url(images/background-01-1920x310.jpg); background-image: -webkit-image-set( url(images/background-01-1920x310.jpg) 1x, url(images/background-01-3840x620.jpg) 2x )"><img src="images/foreground-01-1600x310.png" srcset="images/foreground-01-1600x310.png 1x, images/foreground-01-3200x620.png 2x" alt="" width="1600" height="310"></a>
+         <footer class="section footer-classic section-sm">
+          <div class="container">
+            <div class="row row-30">
+              <div class="col-lg-3 wow fadeInLeft">
+                <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo potrait black.png" alt="" width="100px" height="20px"/><img class="brand-logo-light" src="images/logo potrait.png" alt="" width="20px" height="20px"/></a>
+                <p class="footer-classic-description offset-top-0 offset-right-25">Trust is the foundation of any successful service. We are committed to earning your trust every day.</p>
+              </div>
+              <div class="col-lg-3 col-sm-8 wow fadeInUp">
+                <P class="footer-classic-title">contact info</P>
+                <div class="d-block offset-top-0">Naduthodi Tower , Tirur Road , <span class="d-lg-block">Down Hill, Malappuram ,</span>   Kerala - 676505 <span class="d-lg-block"></span></div><a class="d-inline-block accent-link" href="mailto:#">info@tecnavis.com</a><a class="d-inline-block" href="tel:#">+91 6282414031</a>              <ul>
+                  <li>Mon-Sat<span class="d-inline-block offset-left-10 text-white">9:30 AM - 5:00 PM</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-2 col-sm-4 wow fadeInUp" data-wow-delay=".3s">
+                <P class="footer-classic-title">Quick Links</P>
+                <ul class="footer-classic-nav-list">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About us</a></li>
+                  <li><a href="./index.html#service">Services</a></li>
+                  <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-4 wow fadeInLeft" data-wow-delay=".2s">
+                <P class="footer-classic-title">newsletter</P>
+                <form class="rd-mailform text-left footer-classic-subscribe-form" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+                  <div class="form-wrap">
+                    <label class="form-label" for="subscribe-email">Your Email Address</label>
+                    <input class="form-input" id="subscribe-email" type="email" name="email" data-constraints="@Email @Required">
+                  </div>
+                  <div class="form-button group-sm text-center text-lg-left">
+                    <button class="button button-primary button-circle" type="submit">sign up</button>
+                  </div>
+                </form>
+                <p>Be the first to find out about our latest news, updates, and special offers.</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="container wow fadeInUp" data-wow-delay=".4s">
-          <div class="footer-classic-aside">
-            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span>. All Rights Reserved. Design by <a href="https://www.templatemonster.com">TemplateMonster</a></p>
-            <ul class="social-links">
-              <li><a class="fa fa-linkedin" href="#"></a></li>
-              <li><a class="fa fa fa-twitter" href="#"></a></li>
-              <li><a class="fa fa fa-youtube" href="https://youtube.com/@Tecnaviswebsolutions"></a></li>
-              <li><a class="fa fa-facebook" href="https://www.facebook.com/people/Tecnavis-WebSolutions/pfbid02a3iE22sZkNnApbH8GPy7UuaE3QmBsxP6FP6e5u58uuzkWksq3ucriXVTVqpXUjYTl/"></a></li>
-              <li><a class="fa fa-instagram" href="https://www.instagram.com/tecnavis"></a></li>
-            </ul>
+          <div class="container wow fadeInUp" data-wow-delay=".4s">
+            <div class="footer-classic-aside">
+              <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span>. All Rights Reserved. Design by <a href="https://www.tecnavis.com/">Tecnavis Web Solutions Pvt Ltd</a></p>
+              <ul class="social-links">
+                <li><a class="fa fa-linkedin" href="#"></a></li>
+                <li><a class="fa fa fa-twitter" href="#"></a></li>
+                <li><a class="fa fa fa-youtube" href="https://youtube.com/@Tecnaviswebsolutions"></a></li>
+                <li><a class="fa fa-facebook" href="https://www.facebook.com/people/Tecnavis-WebSolutions/pfbid02a3iE22sZkNnApbH8GPy7UuaE3QmBsxP6FP6e5u58uuzkWksq3ucriXVTVqpXUjYTl/"></a></li>
+                <li><a class="fa fa-instagram" href="https://www.instagram.com/tecnavis"></a></li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </footer>
+        </footer>
     </div>
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
