@@ -8824,6 +8824,8 @@ html.rd-navbar-fixed-linked .page {
 	overflow: hidden;
 	margin-top: -200px;
 	margin-bottom: -200px;
+	margin-left: 0;
+	margin-right: 0;
 
 }
 #copy{
