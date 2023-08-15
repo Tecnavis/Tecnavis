@@ -987,13 +987,13 @@ a[href*='tel'], a[href*='mailto'] {
 	height: 100%;
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 768px) {
 	.main-decorated-box:before {
-		display: block;
-		width: 576px;
+		display: none;
+		/* width: 576px;
 		height: 538px;
 		right: -32%;
-		top: -25%;
+		top: -25%; */
 	}
 }
 
@@ -9222,3 +9222,20 @@ html.rd-navbar-fixed-linked .page {
     transform: translateY(-2000px);
   }
 }
+.abc{
+	display: none;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    /* Hide the div on mobile */
+    #scene{
+        display: none;
+    }
+    
+    /* Show a heading on mobile */
+    .abc {
+        display: block;
+    }
+}
+
