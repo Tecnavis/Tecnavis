@@ -9384,11 +9384,14 @@ html.rd-navbar-fixed-linked .page {
   
 	  #closeBtn {
 		position: absolute;
-		top: 100px;
+		top: 70px;
 		right: 310px;
 		font-size: 30px;
 		cursor: pointer;
 		color: #fff;
+		background: none;
+		border: none;
+		padding: 0;
 	  }
 	  /* Mobile responsiveness */
 	  @media (max-width: 768px) {
@@ -9397,8 +9400,14 @@ html.rd-navbar-fixed-linked .page {
 		  height: 90vh; /* Adjust the height as needed */
 		}
 		#closeBtn{
-			font-size: 25px;
-			top: 305px;
+			position: absolute;
+		font-size: 25px;
+		top: 205px;
 		right: 22px;
+		cursor: pointer;
+		color: #fff;
+		background: none;
+		border: none;
+		padding: 0;
 		}
 	  }

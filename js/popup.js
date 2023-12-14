@@ -1,5 +1,5 @@
- // Open the video modal automatically when the page loads
- document.addEventListener('DOMContentLoaded', function () {
+  // Open the video modal automatically when the page loads
+  document.addEventListener('DOMContentLoaded', function () {
     openVideoModal();
   });
 
@@ -8,7 +8,11 @@
   }
 
   function closeVideoModal() {
+    console.log("close");
     document.getElementById('videoModal').style.display = 'none';
-    // Pause the video when closing the modal
-    document.querySelector('video').pause();
+
+    // Pause and reset the video when closing the modal
+    var video = document.querySelector('#videoModal video');
+    video.pause();
+    video.currentTime = 0;
   }
