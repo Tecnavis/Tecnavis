@@ -1,17 +1,14 @@
-$(function(){
-    var overlay = $('<div id="overlay"></div>');
-    overlay.show();
-    overlay.appendTo(document.body);
-    $('.popup-onload').show();
-    $('.close').click(function(){
-    $('.popup-onload').hide();
-    overlay.appendTo(document.body).remove();
-    return false;
-    });
-    
-    $('.x').click(function(){
-    $('.popup').hide();
-    overlay.appendTo(document.body).remove();
-    return false;
-    });
-    });
+ // Open the video modal automatically when the page loads
+ document.addEventListener('DOMContentLoaded', function () {
+    openVideoModal();
+  });
+
+  function openVideoModal() {
+    document.getElementById('videoModal').style.display = 'flex';
+  }
+
+  function closeVideoModal() {
+    document.getElementById('videoModal').style.display = 'none';
+    // Pause the video when closing the modal
+    document.querySelector('video').pause();
+  }
